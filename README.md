@@ -1,5 +1,5 @@
 This is a game which works just like Tetris but with a twist, the blocks here are made up of sand!!!
-Please consider playing this game as it will take just 22MB of 
+Please consider playing this game as it will take just 22MB of space...
 To play this:
 1)Download the zip file
 2)Extract it
