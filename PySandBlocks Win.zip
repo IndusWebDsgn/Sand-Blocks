@@ -1,26 +1,19 @@
 UPDATE (ADDED THIS NEW):
 
-# Initialize pygame
 pygame.init()
 
-# Screen dimensions
 WIDTH, HEIGHT = 800, 600
 
-# Colors
 LIGHT_THEME = {"bg": (255, 255, 255), "text": (0, 0, 0)}
 DARK_THEME = {"bg": (50, 50, 50), "text": (200, 200, 200)}
 
-# Initialize screen
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sound and Theme Example")
 
-# Fonts
 font = pygame.font.SysFont("Arial", 36)
 
-# Load sound effects
 click_sound = pygame.mixer.Sound("click.wav")  # Add your sound file here
 
-# Current theme
 current_theme = LIGHT_THEME
 
 def draw_screen():
@@ -31,7 +24,6 @@ def draw_screen():
     screen.blit(text, text_rect)
     pygame.display.flip()
 
-# Game loop
 running = True
 while running:
     for event in pygame.event.get():
