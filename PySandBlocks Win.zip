@@ -1,3 +1,5 @@
+UPDATE (ADDED THIS NEW):
+
 # Initialize pygame
 pygame.init()
 
